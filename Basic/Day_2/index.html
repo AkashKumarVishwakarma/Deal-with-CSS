@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Color Property & Box-Shadow</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #808080;
+    }
+    /* h1{
+        color: aqua;
+        background: pink;
+    } */
+    h1{
+        color: #ddcb44;
+        background: #00000054;
+        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        color: rgb(63, 237, 77);
+        color: rgba(255, 255, 255, 0.7);
+        color: hsl(173, 100%, 58%);
+        color: hsl(45deg, 80%, 30%);
+        /* color: hsla(45deg, 80%, 30%,0.7); */
+
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background: yellow;
+        margin-bottom: 60px;
+        /* margin-left: 100px; */
+        margin-left: 60px;
+    }
+    .box1{
+        /* box-shadow: -17px -17px 16px 20px red; */
+        box-shadow: 0px 0px 8px 17px #3f4b35b6;
+    }
+    .box2{
+        box-shadow: 10px 10px 20px 17px rgba(174, 126, 126, 0.567) inset;
+    }
+</style>
+<body>
+    <h1>CSS Color Property.</h1>
+
+    <div class="container">
+        <h2>Box Shadow</h2>
+
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+
+    </div>
+</body>
+</html>
